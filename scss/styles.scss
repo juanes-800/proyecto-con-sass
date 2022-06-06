@@ -1,0 +1,67 @@
+/*selector universal*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+/*variables*/
+$colorPrincipal:#14c38e;
+
+
+
+/* modifico body*/
+
+body{
+    background-image: url("../imagenes/imagen.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Aplicando nesting en el header*/
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-shadow: 12px 15px 6px 3px #b7b7a4;
+    width: 100%;
+
+    .logo{
+        background-position: cover;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .navegacion{
+        width: 90%;
+
+        .caja-ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            list-style-type: none;
+            margin: auto;
+
+            li{
+                a{
+                    text-decoration: none;
+                    padding: 0.4rem;
+                    margin: 0.4rem;
+                    color: #8c2721;
+                }
+            }
+            
+        }
+       
+
+    }
+}
+
+
+    
+
