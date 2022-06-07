@@ -6,7 +6,11 @@
     box-sizing: border-box;
 }
 /*variables*/
+
 $colorPrincipal:#14c38e;
+$colorSecundario: rgb(171,214,170);
+$colorDecoracion:#b7b7a4;
+
 
 
 
@@ -26,7 +30,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    box-shadow: 12px 15px 6px 3px #b7b7a4;
+    box-shadow: 12px 15px 6px 3px $colorDecoracion;
     width: 100%;
 
     .logo{
@@ -61,6 +65,16 @@ body{
 
     }
 }
+
+a:hover{
+    color:$colorSecundario;
+}
+
+a:active{
+    color: rgb(235, 24, 24);
+}
+
+
 
 
     

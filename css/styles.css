@@ -40,3 +40,9 @@ body {
         padding: 0.4rem;
         margin: 0.4rem;
         color: #8c2721; }
+
+a:hover {
+  color: #abd6aa; }
+
+a:active {
+  color: #eb1818; }
