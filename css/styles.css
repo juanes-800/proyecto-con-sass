@@ -98,7 +98,7 @@ section div p {
     align-items: center;
     justify-content: center;
     width: 100%;
-    border: 0.12rem solid grey;
+    border: 0.12rem solid;
     border-radius: 1rem;
     padding: 1rem;
     background-color: #14C38E; }

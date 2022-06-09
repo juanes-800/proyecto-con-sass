@@ -8,6 +8,7 @@
 /*variables*/
 $colorPrincipal: #14C38E;
 $colorsecundario:  #f3f4f4;
+$colorterciario:  grey;
 
 
 
@@ -171,7 +172,7 @@ section{
         justify-content: center;
         width: 100%;
 
-        border: 0.12rem solid grey;
+        border: 0.12rem solid;
         border-radius: 1rem;
         padding: 1rem;
         background-color: $colorPrincipal;
