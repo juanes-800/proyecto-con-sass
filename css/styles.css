@@ -90,7 +90,7 @@ section div p {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   gap: 0.5rem;
-  grid-template-areas: "implementar capacitar" "auditar tramitar"; }
+  grid-template-areas: "implementar capacitar" "auditar tramitar"; }
   .gridContainer .implementar {
     grid-area: implementar;
     display: flex;
