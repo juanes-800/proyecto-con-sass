@@ -6,8 +6,9 @@
     box-sizing: border-box;
 }
 /*variables*/
-$colorPrincipal: #14C38E;
-$colorsecundario:  #f3f4f4;
+$colorUno: #14C38E;
+$colorDos:  #f3f4f4;
+
 
 
 
@@ -86,7 +87,7 @@ section{
 
         }
         p{
-            background-color:$colorsecundario;
+            background-color:$colorDos;
             box-shadow: 12px 15px 6px 3px #b7b7a4;
             padding: 1.5rem;
             margin:1rem;
@@ -113,7 +114,7 @@ section{
        
 
         p{
-            background-color:$colorsecundario;
+            background-color:$colorDos;
             box-shadow: 12px 15px 6px 3px #b7b7a4;
             padding: 1.5rem;
             margin:1rem;
@@ -158,7 +159,7 @@ section{
         }
 
         p{
-            background-color: $colorsecundario;
+            background-color:$colorDos ;
             box-shadow: 12px 15px 6px 3px #b7b7a4;
             padding: 1.5rem;
             margin:1rem;
@@ -171,10 +172,10 @@ section{
         justify-content: center;
         width: 100%;
 
-        border: 0.12rem solid grey;
+        border: 0.12rem solid;
         border-radius: 1rem;
         padding: 1rem;
-        background-color: $colorPrincipal;
+        background-color: $colorUno;
 
 
 
@@ -203,7 +204,7 @@ section{
         }
 
         p{
-            background-color:$colorsecundario;
+            background-color:$colorDos;
             box-shadow: 12px 15px 6px 3px #b7b7a4;
             padding: 1.5rem;
             margin:1rem;
@@ -218,7 +219,7 @@ section{
         border: 0.12rem solid grey;
         border-radius: 1rem;
         padding: 1rem;
-        background-color: $colorPrincipal;
+        background-color: $colorUno;
         
 
     }
@@ -257,7 +258,7 @@ section{
         border: 0.12rem solid grey;
         border-radius: 1rem;
         padding: 1rem;
-        background-color: $colorPrincipal;
+        background-color: $colorUno;
           
     }
 
@@ -279,7 +280,7 @@ section{
         }
 
         p{
-            background-color:$colorsecundario;
+            background-color:$colorDos;
             box-shadow: 12px 15px 6px 3px #b7b7a4;
             padding: 1.5rem;
             margin:1rem;
@@ -295,7 +296,7 @@ section{
         border: 0.12rem solid grey;
         border-radius: 1rem;
         padding: 1rem;
-        background-color: $colorPrincipal;
+        background-color: $colorUno;
           
     }
 
